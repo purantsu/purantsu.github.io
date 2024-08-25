@@ -1,20 +1,12 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Purantsu's website</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <h1>Purantsu's website</h1>
-    <p>Howdy!</p>
-    <div>
-        <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
-        <button type="button" class="btn btn-primary">Submit</button>
-        <button type="button" onclick="
-            var input = document.getElementById('disabledInput');
-            input.disabled = !input.disabled;
-            this.innerText = input.disabled ? 'Enable' : 'Disable';
-        ">Enable</button>
-    </div>
-  </body>
+<html lang="en">
+    <head>
+        <title>Search</title>
+    </head>
+    <body>
+        <form action="https://google.com/search">
+            <input type="text" name="q">
+            <input type="submit" value="Google Search">
+        </form>
+    </body>
 </html>
