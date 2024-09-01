@@ -12,6 +12,7 @@ body {
 }
 @media (min-height: 400px) {
     .container {
+        background-color: antiquewhite;
         margin: 0 auto;
         max-width: 800px;
         position: absolute;
@@ -31,6 +32,13 @@ body {
     color: #4285f4;
     
 
+}
+#logo-small {
+    font-family:'Product Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: #4285f4;
+    text-align: right;
 }
 #search-box {
     margin-bottom: 10px; 
