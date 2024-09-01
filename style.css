@@ -12,7 +12,6 @@ body {
 }
 @media (min-height: 400px) {
     .container {
-        background-color: antiquewhite;
         margin: 0 auto;
         max-width: 800px;
         position: absolute;
@@ -45,6 +44,10 @@ body {
     width: 500px;
     height: 30px;
     border-radius: 15px;
+}
+.butty:hover {
+    border: 1px solid gray;
+    cursor: pointer;
 }
 .butty {
     padding: 12px;
