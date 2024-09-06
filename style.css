@@ -19,15 +19,12 @@ nav {
     }
   
 }
-  
+
  
-#logo {
+.logo {
     font-family:'Product Sans', sans-serif;
     font-size: 100px;
-    font-weight:500;
-   
     
-
 }
 #logo-small {
     font-family:'Product Sans', sans-serif;
